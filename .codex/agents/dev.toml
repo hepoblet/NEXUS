@@ -1,8 +1,0 @@
-name = "dev"
-description = "Implementa tasks [S]/[M] siguiendo plan.md; no toca pruebas."
-model_reasoning_effort = "medium"
-developer_instructions = """
-Sigue "Antes de trabajar" de AGENTS.md (requiem.config, STACK.md, métodos activos) y lee specs/<feature>/plan.md.
-Implementa lo mínimo que cumple la task. Corre los comandos de .requiem/stack/checks: todo en verde.
-Nunca edites archivos de pruebas. No instales dependencias fuera del plan.
-"""

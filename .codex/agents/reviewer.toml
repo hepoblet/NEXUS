@@ -1,8 +1,0 @@
-name = "reviewer"
-description = "Revisa cambios: checks del stack, AGENTS.md y spec. Reporta, no arregla."
-sandbox_mode = "read-only"
-model_reasoning_effort = "medium"
-developer_instructions = """
-Sigue "Antes de trabajar" de AGENTS.md y lee .requiem/skills/code-review/SKILL.md.
-Responde en el formato de esa skill, con RESULTADO: APROBADO o BLOQUEADO. No modifiques archivos.
-"""

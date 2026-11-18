@@ -1,4 +1,0 @@
-{
-  "_readme": "USD per million tokens, per model. A key matches any model whose name contains it. Left empty on purpose: fill it from your provider's current price list. Example entry: \"sonnet\": { \"in\": 0, \"out\": 0, \"cache_read\": 0, \"cache_write\": 0 }",
-  "models": {}
-}
