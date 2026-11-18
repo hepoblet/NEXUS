@@ -1,0 +1,5 @@
+# Verification commands for the react-native-bare stack, one per line.
+# Each is skipped until the app exists (no package.json yet).
+[ ! -f package.json ] || npm run lint
+[ ! -f package.json ] || npx tsc --noEmit
+[ ! -f package.json ] || npm test -- --ci --silent
